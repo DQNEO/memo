@@ -76,16 +76,33 @@
 * JavaScript
 * 図解でわかるLinuxのすべて
 * Git入門
+* パーフェクトPHP
 * Subversion入門
+* レガシーコード
+* Joel on Software
 * PHPによるデザインパターン入門
 * 初めてのPerl
 * 続・はじめてのPerl
 * よくわかるPerl
-* レガシーコード
-* 
+
 
 # いま勉強中
 
 * C言語
 * Git/Github
 * Javaのマルチスレッド
+
+# 克服したい苦手分野
+* iptables
+* make
+* .so, .a, ldd, ldconfigなどの「共有ライブラリ」まわりの仕組み
+* C言語(カーネルやミドルウェアのソースコード読めるようになりたい)
+* PHPの内部構造(C言語レベルでの挙動)
+
+# 尊敬するプログラマ
+* YAPCで登壇してるハッカーたち
+* Linus Torvals
+* Larry Wall
+* DHH
+* その他フォローしてるみなさん
+
