@@ -1,20 +1,19 @@
-自己紹介です。(2012年11月現在)
+[@DQNEO](http://twitter.com/DQNEO) の自己紹介です。(2012年11月現在)
 
 # ブログ
 [DQNEO起業日記](http://dqn.sakusakutto.jp/)
-
-ホッテントリに7回ほどのりました。
-
-[はてぶ人気記事の一覧](http://b.hatena.ne.jp/entrylist?sort=count&url=http%3A%2F%2Fdqn.sakusakutto.jp%2F
-)
 
 #### Tophatenar
 
 ![Tophatenar](http://tophatenar.com/chart/correlation_small/http://dqn.sakusakutto.jp/)
 
+ホッテントリに7回ほどのりました。→ [はてぶ人気記事の一覧](http://b.hatena.ne.jp/entrylist?sort=count&url=http%3A%2F%2Fdqn.sakusakutto.jp%2F
+)
+
+
 # スキル
-* アプリケーション開発
-* サーバ管理
+* Webアプリケーション開発・運用
+* サーバ構築・管理・運用
 
 ## 使える言語(得意な順)
 
@@ -38,7 +37,10 @@
 * Plack/PSGI
 
 ## 開発環境
+Emacs/zsh/Screen/Git が4種の神器
+
 基本的にはLinuxサーバにログインして開発します。
+
 * OS
  * 仕事:CentOS
  * プライベートUbuntu (coLinux)
@@ -47,6 +49,7 @@
  * Emacs (メイン)
  * nano (設定ファイルの編集とか用)
  * 秀丸
+
 
 ## クラウド
 * AWS
@@ -135,3 +138,10 @@ http://www.slideshare.net/DQNEO/presentations
 # 取り組んでいる(きた)こと　(随時更新予定)
 * 2012/10 巨大SVNレポジトリをGithubに移管 / Git習熟 / C言語でテトリス
 * 2012/11 Javaマルチスレッドを使ってAmazonS3への並列アップロード
+
+# 座右の銘
+
+人は優れているほど多くの間違いをおかす。
+人は優れているほど多くをこころみる。
+
+P.F.ドラッカー
