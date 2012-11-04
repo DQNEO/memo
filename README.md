@@ -1,6 +1,13 @@
 自己紹介です。
 
+# ブログ
+[DQNEO起業日記](http://dqn.sakusakutto.jp/)
+
+ホッテントリに5回ほどのりました。
+
 # スキル
+* アプリケーション開発
+* サーバ管理
 
 ## 使える言語(得意な順)
 
@@ -13,12 +20,13 @@
 * JScript
 
 ## 管理経験のあるミドルウェア(得意な順)
-* Apache
 * PostgreSQL
+* Apache
 * Memcached
 * Subversion(webdav)
 * MongoDB
 * MySQL
+* TokyoTyrant
 * Nginx
 
 ## 開発環境
@@ -31,6 +39,19 @@
  * Emacs (メイン)
  * nano (設定ファイルの編集とか用)
  * 秀丸
+
+## クラウド
+* AWS
+  * AmazonS3(だいすき)
+  * EC2/EBS/EIP
+  * SQS
+  * Route53
+* NiftyCloud
+  * small～Largeまで
+  * Disk40/Disk200
+  * LoadBalancer
+  * PVLAN
+* DTIのVPS(趣味で)
 
 ## VCS
 * Git
@@ -49,7 +70,22 @@
 * くろんメーカ
 * DQNEO カレンダー(jQueryプラグイン)
 
-# ブログ
-[DQNEO起業日記](http://dqn.sakusakutto.jp/)
+# 読んだ本(身についてる順)
+* リファクタリング
+* テスト駆動開発入門
+* JavaScript
+* 図解でわかるLinuxのすべて
+* Git入門
+* Subversion入門
+* PHPによるデザインパターン入門
+* 初めてのPerl
+* 続・はじめてのPerl
+* よくわかるPerl
+* レガシーコード
+* 
 
-ホッテントリに5回ほどのりました。
+# いま勉強中
+
+* C言語
+* Git/Github
+* Javaのマルチスレッド
