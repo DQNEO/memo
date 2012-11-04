@@ -94,7 +94,7 @@
 * くろんメーカ
 * DQNEO カレンダー(jQueryプラグイン)
 
-# オープンソースへの貢献 (貢献度順w)
+# オープンソースへの貢献 (貢献度順)
 * [Ethnaの細かいバグ修正](https://github.com/ethna/ethna/pulls?direction=desc&page=1&sort=created&state=closed)
 * CPANモジュール (Amazon::S3::FastUploader) http://search.cpan.org/~dqneo/
 * [Subversionクライアントのバグ修正パッチ公開](http://dqn.sakusakutto.jp/2012/05/svn_E235000_In_file_subversion_libsvn_wc_update_editor.c_line_1583%20.html)
@@ -124,3 +124,8 @@ http://www.slideshare.net/DQNEO/presentations
 * Larry Wall
 * DHH
 * その他フォローしてるみなさん
+
+
+# 今取り組んでいる(きた)こと
+* 2012/10 巨大SVNレポジトリをGithubに移管 / Git習熟 / C言語でテトリス
+* 2012/11 Javaマルチスレッドを使ってAmazonS3への並列アップロード
