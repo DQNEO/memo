@@ -18,21 +18,20 @@
 ## 使える言語(得意な順)
 
 * PHP
-* JavaScript(クライアントサイド)
+* JavaScript(クライアントサイドが主。node.jsも少し。)
 * Perl
 * ShellScript(Bash)
-* Java(デスクトップアプリ)
-* VBA(Excel, PowerPoint)
+* Java(デスクトップアプリ,Android)
 * JScript(Windowsバッチ処理)
+* VBA(Excel, PowerPoint)
 
-## 管理経験のあるミドルウェア(得意な順)
+## 使用経験のあるミドルウェア(得意な順)
 * PostgreSQL
 * Apache
 * Memcached
-* Subversion(webdav)
 * MongoDB
-* MySQL
 * TokyoTyrant
+* MySQL
 * Nginx
 * Plack/PSGI
 
@@ -48,8 +47,8 @@ Emacs/zsh/Screen/Git が4種の神器
 * エティタ
  * Emacs (メイン)
  * nano (設定ファイルの編集とか用)
+ * Eclipse(Java開発)
  * 秀丸
-
 
 ## クラウド
 * AWS
@@ -61,7 +60,6 @@ Emacs/zsh/Screen/Git が4種の神器
   * small～Largeまで
   * Disk40/Disk200
   * LoadBalancer
-  * PVLAN
 * DTIのVPS(趣味で)
 
 ## VCS
@@ -126,8 +124,8 @@ http://www.slideshare.net/DQNEO/presentations
 ## いま勉強中
 * C言語
 * Git/Github
-* Javaのマルチスレッド
-* AWSでの大規模分散バッチ処理
+* MongoDB
+* Node.js(express)
 
 ## 克服したいと考えている苦手分野
 * make
