@@ -7,6 +7,8 @@
 * [サブコマンド一覧](http://git-scm.com/docs)
 * [あなたの知らないGit Tips](http://keijinsonyaban.blogspot.jp/2010/11/git-tips.html)
 * [gitrevisions(7)](https://www.kernel.org/pub/software/scm/git/docs/gitrevisions.html)
+* [gitcore-tutorial(7)](http://schacon.github.io/git/gitcore-tutorial.html)
+
 
 ## メモ
 ### データ構造
