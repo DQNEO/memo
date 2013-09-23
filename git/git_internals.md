@@ -8,7 +8,9 @@
 * [あなたの知らないGit Tips](http://keijinsonyaban.blogspot.jp/2010/11/git-tips.html)
 * [gitrevisions(7)](https://www.kernel.org/pub/software/scm/git/docs/gitrevisions.html)
 * [gitcore-tutorial(7)](http://schacon.github.io/git/gitcore-tutorial.html)
-
+* [gitのソースコードを読む - より良い環境を求めて](http://d.hatena.ne.jp/n314/20130905/1378383066)
+* [ファイルシステムとしての Git - 言語ゲーム](http://d.hatena.ne.jp/propella/20110105/p1)
+* 
 
 ## メモ
 ### データ構造
