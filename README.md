@@ -125,9 +125,3 @@ http://www.slideshare.net/DQNEO/presentations
 * DHH
 * その他フォローしてるみなさん
 
-## 座右の銘
-
-人は優れているほど多くの間違いをおかす。
-人は優れているほど多くをこころみる。
-
-P.F.ドラッカー
