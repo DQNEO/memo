@@ -91,11 +91,14 @@ Emacs/zsh/Screen/Git が4種の神器
 * くろんメーカ
 * DQNEO カレンダー(jQueryプラグイン)
 
-## オープンソースへの貢献 (貢献度順)
-* [Ethnaの細かいバグ修正](https://github.com/dashboard/pulls?direction=desc&page=1&sort=created&state=closed)
+## オープンソースへの貢献
+* [Ethna](https://github.com/ethna/ethna)
+* [Ethnam](https://github.com/DQNEO/ethnam)
+* [minigit](https://github.com/DQNEO/minigit)
 * CPANモジュール (Amazon::S3::FastUploader) http://search.cpan.org/~dqneo/
+* JavaのAmazonS3アップローダ [S3ParallelUploader](https://github.com/DQNEO/S3ParallelUploader)
 * [Subversionクライアントのバグ修正パッチ公開](http://dqn.sakusakutto.jp/2012/05/svn_E235000_In_file_subversion_libsvn_wc_update_editor.c_line_1583%20.html)
-* その他Githubにて絶賛公開中
+* その他Githubにて多数公開中
 
 ## 勉強会での発表
 * YAPC::Asia2012 LTソン 「桐島、ファイルに保存するのやめるってよ」
