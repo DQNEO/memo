@@ -64,10 +64,6 @@ Emacs/zsh/Screen/Git が4種の神器
   * LoadBalancer
 * DTIのVPS(趣味で)
 
-## VCS
-* Git
-* Subversion
-
 ## 得意分野
 
 * リファクタリング
