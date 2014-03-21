@@ -14,7 +14,7 @@ Berksfileをもとにcookbooksを取得して./cookbooks/ 内に設置してく�
 
 ## Berksfileの書き方
 
-書き方: gistをみよ
+gistをみよ https://gist.github.com/DQNEO/8188023
 
 ## BerksfileとBerksfile.lockの関係
 
