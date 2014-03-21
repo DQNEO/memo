@@ -2,6 +2,8 @@
 
 ## わからないこと
 
+* execute/bash resourceの違い
+
 ### DNS
 DNSがらみのやつ、on/offどっちが速いのか不明
 
