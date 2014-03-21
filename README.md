@@ -42,8 +42,8 @@ Emacs/zsh/Screen/Git が4種の神器
 基本的にはLinuxサーバにログインして開発します。
 
 * OS
- * 仕事:CentOS
- * プライベートUbuntu (coLinux)
+ * 仕事:CentOS6(クラウド)
+ * プライベートVagrant + VirtualBox + CentOS6
 
 * エティタ
  * Emacs (メイン)
