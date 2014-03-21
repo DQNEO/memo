@@ -1,4 +1,4 @@
-[@DQNEO](http://twitter.com/DQNEO) の自己紹介です。(2012年11月現在)
+[@DQNEO](http://twitter.com/DQNEO) の自己紹介です。(2014年3月現在)
 
 # ブログ
 [DQNEO起業日記](http://dqn.sakusakutto.jp/)
