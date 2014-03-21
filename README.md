@@ -30,6 +30,7 @@
 * Apache
 * Memcached
 * MongoDB
+* ChefSolo
 * TokyoTyrant
 * MySQL
 * Nginx
