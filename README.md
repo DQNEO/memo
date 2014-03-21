@@ -49,7 +49,7 @@ Emacs/zsh/Screen/Git が4種の神器
  * Emacs (メイン)
  * nano (設定ファイルの編集とか用)
  * Eclipse(Java開発)
- * 秀丸
+ * 秀丸(Windowsでメモ帳のかわりに)
 
 ## クラウド使用経験
 * AWS
