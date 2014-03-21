@@ -119,9 +119,5 @@ http://www.slideshare.net/DQNEO/presentations
 * ChefSolo
 
 ## 尊敬するプログラマ
-* YAPCで登壇してるハッカーたち(@miyagawa,@tokuhirom,id:naoya,etc)
-* Linus Torvals
-* Larry Wall
-* DHH
-* その他フォローしてるみなさん
-
+* Linus Torvals/Larry Wall/Richard Stallman
+* その他ハッカーのみなさん
