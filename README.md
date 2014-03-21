@@ -51,10 +51,11 @@ Emacs/zsh/Screen/Git が4種の神器
  * Eclipse(Java開発)
  * 秀丸
 
-## クラウド
+## クラウド使用経験
 * AWS
-  * AmazonS3(だいすき)
-  * EC2/EBS/EIP
+  * EC2/EBS
+  * AmazonS3
+  * Elastic IP
   * SQS
   * Route53
 * NiftyCloud
