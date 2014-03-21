@@ -36,3 +36,8 @@ DNSがらみのやつ、on/offどっちが速いのか不明
 * 各種サブコマンド(up, reload,provisionなど)はプラグインになってるみたい
 * ソースコードはGithubにある
 
+### Windows
+
+* インストール場所: /c/HashiCorp/Vagrant
+* 実行ファイル: c/HashiCorp/Vagrant/bin/vagrant
+* vagrant本体: /c/HashiCorp/Vagrant/embedded/gems/gems/vagrant-1.4.2
