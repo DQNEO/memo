@@ -1,5 +1,7 @@
 # Berkshelfメモ
 
+https://github.com/berkshelf/berkshelf
+
 ## 知ってること
 * ver2はCygwinでインスコできなかった
 * ver3はCygwinでインスコできた
