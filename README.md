@@ -116,6 +116,7 @@ http://www.slideshare.net/DQNEO/presentations
 * C言語(カーネルやミドルウェアのソースコード読めるようになりたい)
 * PHPの内部構造(C言語レベルでの挙動)
 * iptables
+* ChefSolo
 
 ## 尊敬するプログラマ
 * YAPCで登壇してるハッカーたち(@miyagawa,@tokuhirom,id:naoya,etc)
