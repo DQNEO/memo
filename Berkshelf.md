@@ -16,7 +16,7 @@ Berksfileをもとにcookbooksを取得して./cookbooks/ 内に設置してく�
 
 ## Berksfileの書き方
 
-```
+```Ruby
 source "https://api.berkshelf.com/"
  
 # use opscode cookbook
