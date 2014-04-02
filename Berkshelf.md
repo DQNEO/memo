@@ -16,7 +16,28 @@ Berksfileをもとにcookbooksを取得して./cookbooks/ 内に設置してく�
 
 ## Berksfileの書き方
 
-gistをみよ https://gist.github.com/DQNEO/8188023
+```
+source "https://api.berkshelf.com/"
+ 
+# use opscode cookbook
+cookbook 'yum'
+cookbook 'nginx'
+cookbook 'memcached'
+ 
+# git URL
+cookbook 'chef-hostname' , git: 'git://github.com/lxmx/chef-hostname.git'
+# github 
+cookbook 'mongodb', github: 'edelight/chef-mongodb'
+# github
+cookbook 'berkshelf-minimum', github: 'DQNEO/cookbook-berkshelf-minimum'
+ 
+# local path
+cookbook 'berkshelf-minimum', path: '/tmp/cookbook-berkshelf-minimum'
+ 
+# 別名で取得することもできる。
+# knife solo cook -o hello $remote のように実行できる。
+cookbook 'hello', github: 'DQNEO/cookbook-berkshelf-minimum'
+```
 
 ## BerksfileとBerksfile.lockの関係
 
