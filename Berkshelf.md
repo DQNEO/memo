@@ -2,10 +2,11 @@
 
 https://github.com/berkshelf/berkshelf
 
-## 知ってること
-* ver2はCygwinでインスコできなかった
-* ver3はCygwinでインスコできた
+## ver2とver3について
 * ver2は開発終了。ver3は鋭意開発中
+* Cygwinではver2はインスコできなかった。ver3はできた。
+* knife soloはberkshelf連携機能があって、ver2,ver3両方対応している。
+
 
 ## コマンド
 
