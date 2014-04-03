@@ -49,6 +49,8 @@ Bundler/Composerなどと同じらしいのだが、イマイチわかってな�
 
 ミニマムレポジトリを作った
 
+https://github.com/DQNEO/cookbook-berkshelf-minimum
+
 
 ## わからないこと
 
