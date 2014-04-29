@@ -2,6 +2,7 @@
 * [Vagrant](/Vagrant.md)
 * [Berkshelf](/Berkshelf.md)
 * [Kernel](/Kernel.md)
+* [Chef](/Chef.md)
 
 ## Repos
 
