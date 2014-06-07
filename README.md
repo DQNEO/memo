@@ -7,4 +7,4 @@
 ## Repos
 
 * [knife-solo-renshu](https://github.com/DQNEO/knife-solo-renshu)
-
+* [GitInternals](https://github.com/DQNEO/GitInternals)
