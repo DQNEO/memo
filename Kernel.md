@@ -1,5 +1,9 @@
 # Kernel
 
+## プロセスの実体
+
+struct task_struct : https://github.com/torvalds/linux/blob/v3.15/include/linux/sched.h#L1179 
+
 ## サーバ/インフラを支える技術
 
 [Kernel 2.6.23のソースコード](https://github.com/torvalds/linux/tree/v2.6.23)
