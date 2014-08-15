@@ -1,3 +1,10 @@
+## the Omnibus Installer¶
+これを使うと一発でChefをインストールできる。
+```shell
+curl -L https://www.opscode.com/chef/install.sh | sudo bash
+```
+http://docs.getchef.com/install_omnibus.html
+
 ## remote_directory
 
 あくまでfilesリソースの拡張なので、templateは使えないことに注意。
