@@ -10,6 +10,30 @@
 [はてぶ人気記事の一覧](http://b.hatena.ne.jp/entrylist?sort=count&url=http%3A%2F%2Fdqn.sakusakutto.jp%2F
 )
 
+# 過去の主なPullRequest
+
+## PHP
+* Ethna (多数あり)
+ * https://github.com/ethna/ethna/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
+* Symfony
+ * https://github.com/symfony/symfony/pull/11811
+ * https://github.com/symfony/symfony/pull/11812
+* PHP-src
+ * https://github.com/php/php-src/pull/544
+ 
+## Ruby
+* knife-solo
+ * https://github.com/matschaffer/knife-solo/pull/401
+
+## Perl
+* Web::Scraper
+ * https://github.com/miyagawa/web-scraper/pull/16
+* Web::Query
+ * https://github.com/tokuhirom/Web-Query/pull/25
+ * https://github.com/tokuhirom/Web-Query/pull/26
+ * https://github.com/tokuhirom/Web-Query/pull/27
+ * https://github.com/tokuhirom/Web-Query/pull/28
+
 
 # スキル
 * Webアプリケーション開発・運用
