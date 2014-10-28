@@ -5,7 +5,7 @@ use Config::Tiny;
 use Data::Dumper;
 
 my $file = $ENV{'HOME'} . '/.aws/config';
-my $cfg = new Config::Tiny->read($file) or die "cannot parse config";
+my $cfg = Config::Tiny->read($file) or die "cannot parse config";
 
 # 全体
 print Dumper $cfg;
