@@ -5,6 +5,18 @@ curl -L https://www.opscode.com/chef/install.sh | sudo bash
 ```
 http://docs.getchef.com/install_omnibus.html
 
+## レシピ内でcookbook名を取得する
+
+
+`cookbook_name.to_s`で取得できる。
+
+同cookbook内の他のレシピを呼びたいときはこうする。
+
+```
+include_recipe cookbook_name.to_s + "::another_recipes"
+```
+
+
 ## remote_directory
 
 あくまでfilesリソースの拡張なので、templateは使えないことに注意。
