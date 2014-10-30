@@ -1,6 +1,6 @@
 # Chefに関するメモ
 
-## the Omnibus Installer¶
+## the Omnibus Installer
 これを使うと一発でChefをインストールできる。
 ```shell
 curl -L https://www.opscode.com/chef/install.sh | sudo bash
