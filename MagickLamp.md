@@ -1,6 +1,10 @@
 # 仕事で使える魔法のLAMP
 
-ビルド編目次
+## make編
+
+* [9 - Makefileをいろいろ書き換えながらビルドしてみよう] (http://www.atmarkit.co.jp/ait/articles/1106/10/news115.html)
+
+## GNU hello編目次
 
 * [10 - ダウンロードファイルが真正なものであるかを確認](http://www.atmarkit.co.jp/ait/articles/1106/17/news138.html)
 * [11 - 配布パッケージの中身と、configureの役目を知る](http://www.atmarkit.co.jp/ait/articles/1106/24/news112.html)
