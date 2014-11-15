@@ -18,6 +18,7 @@ wget http://ftp.gnu.org/gnu/hello/hello-2.7.tar.gz
 * ファイル名が大文字になっているものはドキュメント
 * INSTALL, CHANGESなどは読んどけ
 * configureコマンドがMakefileを生成する
+* configureはシェルスクリプトである。
 
 ### 背景：なぜconfigureを使うのか？
 
@@ -25,7 +26,6 @@ Makefileを書き換えればビルド設定変更することはできるが、
 そこで、自動的に環境を調査して、環境に合わせて設定したMakefileを生成する、という方法が採られるようになった。
 それがconfigureである。
 
-configureはシェルスクリプトである。
 
 > configureによる自動設定が主流になる前は、Makefileなどのファイルを自分の環境に合わせて書き換えてからmakeしていました。それに比べると現在のビルド作業は、はるかに楽になったものです。ただし、今現在でもconfigureが付属せず、自分で書き換えなければいけないFOSSは、ごく少ないですが存在しています。
 
