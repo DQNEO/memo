@@ -107,6 +107,7 @@ $ env CC=gcc ./configure
 
 [14 - Apache HTTP Serverのビルドを始めよう](http://www.atmarkit.co.jp/ait/articles/1107/15/news124.html)
 [15 - ライブラリが足りなくてビルドできないときは？](http://www.atmarkit.co.jp/ait/articles/1107/22/news142.html)
+[16 - proxyやsslのモジュールを使ってみる](http://www.atmarkit.co.jp/ait/articles/1107/29/news121.html)
 
 ## 14 - Apache HTTP Serverのビルドを始めよう
 ### configureのポイント
@@ -174,5 +175,42 @@ yum installする。
 $ sudo yum install zlib zlib-devel
 ```
 
+### 16 - proxyやsslのモジュールを使ってみる
 
+実は、`--enable-mods-shared="all"`で含まれてないモジュールがある。
+公式サイトを見ると下記のように説明されており。
+```
+--enable-mods-shared="all ssl ldap cache proxy authn_alias mem_cache file_cache authnz_ldap charset_lite dav_lock disk_cache"
+```
+allの右側に書いてあるものが、allに含まれていないものである。
+
+このうち、sslとproxyを追加してみる。
+
+`--enable-mods-shared="all ssl proxy"`のように書いてもいいのだが、行志向にした方が編集しやすいので下記のようにする。
+
+```
+./configure \
+  --prefix=/opt/httpd-2.2.19 \
+  --enable-mods-shared=all \
+  --enable-ssl \
+  --enable-proxy \
+  --with-mpm=prefork
+```
+
+ここで、sslのエラーが出た場合はパッケージをインストーする。
+```
+$ sudo yum install openssl-devel
+```
+
+sslの場合はwith指定が必要。
+
+```
+./configure \
+  --prefix=/opt/httpd-2.2.19 \
+  --enable-mods-shared=all \
+  --enable-ssl \
+  --with-ssl \
+  --enable-proxy \
+  --with-mpm=prefork
+```
 
