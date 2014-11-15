@@ -103,5 +103,23 @@ $ env CC=gcc ./configure
 * enable/disable は、主にそのソフトウェアの機能や動作方法などを有効無効にするもの
 * with/without は、主に外部のソフトウェアやライブラリを組み込む(まない)ように指示するもの
 
+# Apache httpd編
+
+[14 - Apache HTTP Serverのビルドを始めよう](http://www.atmarkit.co.jp/ait/articles/1107/15/news124.html)
+
+## 14 - Apache HTTP Serverのビルドを始めよう
+### configureのポイント
+
+* ダイナミックであれば、後から使いたくなったモジュールは、必要に応じて選択すればよいだけですから、「--enable-mods-shared=all」と指定します。
+* モジュールは80個弱ありますので、configureでこれをいちいち指定するのはとても無理でしょう。そこで一括で指定できる「--enable-modules」と「--enable-mods-shared」という引数があります。前者はスタティック、後者はダイナミックの場合に使います。これらの引数にはモジュール名か、allまたはmostというキーワードが指定できます。
+* with/withoutによる指定では、重要な設定としてMPM（Multi Processing Module）の選択があります。これはビルド時にだけ指定でき、実行時には変更できません。
+* MPMとはクライアントからの接続を処理する部分で、LinuxではpreforkとworkerのどちらかのMPMを使います。簡単に違いを説明すると、preforkは1つの接続を1つのプロセスに割り当て、workerではプロセス内部のスレッドに割り当てます。workerの方が処理性能に優れていますが、PHPではpreforkを使うことが推奨されています。
 
 
+```
+./configure \
+  --prefix=/opt/httpd-2.2.19 \
+  --enable-mods-shared=all \
+  --with-mpm=prefork
+```
+  
