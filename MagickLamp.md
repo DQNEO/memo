@@ -51,11 +51,32 @@ onfigureの役割は2つ
 
 ソフトウェ固有のオプションは、`./configure --help=short` で見ることができる。
 
+### --prefixについて
+
 インストール先は、--prefixで設定できる。
 次のようにするのがよい。
 
 ```
 ./configure --prefix=/opt/hello-2.7
 ```
+
+こうすると、下記のようにインストールされる。
+```
+$ tree /opt/hello-2.7
+/opt/hello-2.7
+├── bin
+│   └── hello
+└── share
+    ├── info
+    │   ├── dir
+    │   └── hello.info
+    └── man
+        └── man1
+            └── hello.1
+```
+
+/opt/app/ の直下に直接ファイルが置かれるのではなく、たいていbin, shareなどのディレクトが作られてその下に配置される。
+これはUnixのお作法に従うためである。
+
 
 
