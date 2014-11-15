@@ -2,7 +2,15 @@
 
 ビルド編目次
 
-[12 - configureの設定を変更してみる](http://www.atmarkit.co.jp/ait/articles/1107/01/news139.html)
+* [10 - ダウンロードファイルが真正なものであるかを確認](http://www.atmarkit.co.jp/ait/articles/1106/17/news138.html)
+* [12 - configureの設定を変更してみる](http://www.atmarkit.co.jp/ait/articles/1107/01/news139.html)
+
+## 10 - ダウンロードファイルが真正なものであるかを確認
+
+GNU helloをダウンロードする
+```
+wget http://ftp.gnu.org/gnu/hello/hello-2.7.tar.gz
+```
 
 ## 12 - configureの設定を変更してみる
 
