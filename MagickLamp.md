@@ -115,11 +115,17 @@ $ env CC=gcc ./configure
 * with/withoutによる指定では、重要な設定としてMPM（Multi Processing Module）の選択があります。これはビルド時にだけ指定でき、実行時には変更できません。
 * MPMとはクライアントからの接続を処理する部分で、LinuxではpreforkとworkerのどちらかのMPMを使います。簡単に違いを説明すると、preforkは1つの接続を1つのプロセスに割り当て、workerではプロセス内部のスレッドに割り当てます。workerの方が処理性能に優れていますが、PHPではpreforkを使うことが推奨されています。
 
-
+### ./configureしてみる
 ```
 ./configure \
   --prefix=/opt/httpd-2.2.19 \
   --enable-mods-shared=all \
   --with-mpm=prefork
 ```
-  
+ここでzlibのエラーが出たので、いったんmod_deflateをdisableする。
+これは、mod_deflate以外のエラーが出ないかを確認するため。
+
+```
+--disable-deflate
+```
+
