@@ -158,7 +158,20 @@ zlibについては、ヘルプに次のような1行があります。--with-z�
 
 yum searchする
 ```
-yum search zlib
+$ yum search zlib
+...結果...
+zlib.i386 : The zlib compression and decompression library.
+zlib.x86_64 : The zlib compression and decompression library.
+zlib-devel.i386 : Header files and libraries for Zlib development.
+zlib-devel.x86_64 : Header files and libraries for Zlib development.
+```
+
+zlibと、ヘッダファイルが必要なのでzlib-develも必要。
+
+yum installする。
+
+```
+$ sudo yum install zlib zlib-devel
 ```
 
 
