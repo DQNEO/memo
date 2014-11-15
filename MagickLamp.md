@@ -55,7 +55,7 @@ onfigureの役割は2つ
 次のようにするのがよい。
 
 ```
-./configure --prefix=/opt/appname-1.0
+./configure --prefix=/opt/hello-2.7
 ```
 
 
