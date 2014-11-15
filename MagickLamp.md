@@ -9,6 +9,7 @@
 * [10 - ダウンロードファイルが真正なものであるかを確認](http://www.atmarkit.co.jp/ait/articles/1106/17/news138.html)
 * [11 - 配布パッケージの中身と、configureの役目を知る](http://www.atmarkit.co.jp/ait/articles/1106/24/news112.html)
 * [12 - configureの設定を変更してみる](http://www.atmarkit.co.jp/ait/articles/1107/01/news139.html)
+* [13 - configureでソフトウェア固有の設定を変更してみる](http://www.atmarkit.co.jp/ait/articles/1107/08/news129.html)
 
 ## 10 - ダウンロードファイルが真正なものであるかを確認
 
@@ -89,6 +90,11 @@ $ ./configure CC=gcc
 $ env CC=gcc ./configure
 ```
 
+## 13 - configureでソフトウェア固有の設定を変更してみる
+
+### --enable(--disable)と--with-foo(--without-foo)の違い
+* enable/disable は、主にそのソフトウェアの機能や動作方法などを有効無効にするもの
+* with/without は、主に外部のソフトウェアやライブラリを組み込む(まない)ように指示するもの
 
 
 
