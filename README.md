@@ -4,6 +4,7 @@
 * [Kernel](/Kernel.md)
 * [Chef](/Chef.md)
 * [MagickLamp](/MagickLamp)
+* [CentOS6](CentOS6.md)
 
 ## Repos
 
