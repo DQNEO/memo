@@ -3,6 +3,7 @@
 * [Berkshelf](/Berkshelf.md)
 * [Kernel](/Kernel.md)
 * [Chef](/Chef.md)
+* [MagickLamp](/MagickLamp)
 
 ## Repos
 
