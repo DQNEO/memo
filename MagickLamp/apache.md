@@ -1,8 +1,8 @@
 # Apache httpd編
 
-[14 - Apache HTTP Serverのビルドを始めよう](http://www.atmarkit.co.jp/ait/articles/1107/15/news124.html)
-[15 - ライブラリが足りなくてビルドできないときは？](http://www.atmarkit.co.jp/ait/articles/1107/22/news142.html)
-[16 - proxyやsslのモジュールを使ってみる](http://www.atmarkit.co.jp/ait/articles/1107/29/news121.html)
+* [14 - Apache HTTP Serverのビルドを始めよう](http://www.atmarkit.co.jp/ait/articles/1107/15/news124.html)
+* [15 - ライブラリが足りなくてビルドできないときは？](http://www.atmarkit.co.jp/ait/articles/1107/22/news142.html)
+* [16 - proxyやsslのモジュールを使ってみる](http://www.atmarkit.co.jp/ait/articles/1107/29/news121.html)
 
 ## 14 - Apache HTTP Serverのビルドを始めよう
 ### configureのポイント
