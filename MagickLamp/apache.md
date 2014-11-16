@@ -71,7 +71,7 @@ yum installする。
 $ sudo yum install zlib zlib-devel
 ```
 
-### 16 - proxyやsslのモジュールを使ってみる
+## 16 - proxyやsslのモジュールを使ってみる
 
 実は、`--enable-mods-shared="all"`で含まれてないモジュールがある。
 公式サイトを見ると下記のように説明されており。
