@@ -1,4 +1,5 @@
-# gcc 01_mov.s -o a ; ./a ; echo $?
+# usage:
+# gcc 01_mov.s ; ./a.out ; echo $?
         .code32
         .text
         .global main
