@@ -3,5 +3,5 @@
 #
 # Usage: runs hello.s
 #
-gcc $1 -o /tmp/$1.out && /tmp/$1.out
+gcc $1 -o /tmp/a.out && /tmp/a.out
 
