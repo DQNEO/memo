@@ -1,0 +1,7 @@
+#!/bin/bash
+# アセンブラのコードをコンパイルして即実行するコマンド
+#
+# Usage: runs hello.s
+#
+gcc $1 -o /tmp/$1.out && /tmp/$1.out
+
