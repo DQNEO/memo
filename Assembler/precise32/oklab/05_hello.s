@@ -1,8 +1,8 @@
 
         /*
          * 文字の変更
-         * as -a=05_hello.lst  -o 05_hello.o 05_hello.s
-         * ld -Ttext 0x0 -e main -o 05_hello 05_hello.o
+         * as -o hello.o hello.s
+         * ld -o hello -e main hello.o
          */
         .code32
         .text
