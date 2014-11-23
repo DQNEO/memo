@@ -54,7 +54,8 @@ main:
 
           # exitシステムコールを呼ぶ
           movl $0x10, %ebx  # exitに渡す引数
-          movl $0x01, %eax  # exit
+        addl $0x01, %ebx # ebxを加算
+        movl $0x01, %eax  # exit
           int  $0x80
 
         .data
