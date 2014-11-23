@@ -13,7 +13,7 @@ main:
           movl $4, %eax         # AXレジスタに数値4を設定
           movl $1, %ebx         # BXレジスタに数値1を設定
           movl $msg,%ecx        # CXレジスタにmsgラベルを設定
-          movl $5, %edx         # DXレジスタに数値5を指定
+          movl $6, %edx         # DXレジスタに数値5を指定
 
           # システムコールの実行
           int  $0x80
@@ -23,4 +23,4 @@ main:
         .data
 
           # データはこちらに書いていく。
-msg:     .ascii "hello"
+msg:     .ascii "hello\n"
