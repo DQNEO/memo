@@ -23,5 +23,5 @@ main:
         .data
 
           # データはこちらに書いていく。
-msg:     .ascii "hello\n"
+msg:     .ascii "hello world!!\n"
 msgend:  msglen = msgend - msg
