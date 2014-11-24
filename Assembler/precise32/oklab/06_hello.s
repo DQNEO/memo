@@ -12,7 +12,7 @@ main:
           movl $4, %eax         # AXレジスタにsys_writeシステムコールを指定。
           movl $1, %ebx         # BXレジスタに出力先を標準出力として指定。
           movl $msg,%ecx        # CXレジスタにmsgラベルを設定
-          call conv_func        # conv_funcラベルに飛ぶ。
+          movl $0x42, msg     # msgのデータを16進の0x42つまり文字列Bに書き換える
           movl $len,%edx        # DXレジスタにlenを指定
 
 
