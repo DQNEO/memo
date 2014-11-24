@@ -23,4 +23,5 @@ main:
         movl $lenbaz,   %edx
         movl $4,        %eax    # write system call(sys_write)
         int  $0x80
-ret
+
+        ret
