@@ -27,5 +27,5 @@ main:
         movl $7,        %edx   # len 7
         int  $0x80
 
-        popl  %ebx  # おまじない
+        popl  %ebp  # おまじない
         ret
