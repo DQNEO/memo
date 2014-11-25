@@ -27,5 +27,7 @@ main:
         movl $7,        %edx   # len 7
         int  $0x80
 
-        popl  %ebp  # おまじない
-        ret
+        # call sytem_call exit
+        movl $0,    %ebx
+        movl $0x01, %eax
+        int  $0x80
