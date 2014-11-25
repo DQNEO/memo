@@ -1,5 +1,6 @@
 /**
- * Linux i386でのhello world
+ * 文字列定数を使わないhello world
+ * Linux i386
  * 実行方法:
  * gcc -o hello hello.s
  * ./hello
