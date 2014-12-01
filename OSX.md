@@ -71,3 +71,8 @@ phpinfoを見る！
 $ echo '<?php phpinfo();' > info.php
 $ open http://localhost/info.php
 ```
+
+ロゴ画像イラネ
+```
+$ rm PoweredByMacOSX.gif PoweredByMacOSXLarge.gif
+```
