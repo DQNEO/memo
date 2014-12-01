@@ -53,3 +53,15 @@ $ head /usr/sbin/apachectl
 このコメントを外してreloadする。
 
 
+### DocumentRootをちょっといじる
+
+好きにいじりたいのでオーナーを変更
+```
+$ sudo chown DQNEO /Library/WebServer/Documents
+$ echo hello > /Library/WebServer/Documents/hello.txt
+$ curl http://localhost/hello.txt
+hello
+$ echo '<?php echo PHP_VERSION . PHP_EOL;' > hello.php
+$ curl http://localhost/hello.php
+5.5.14
+```
