@@ -1,10 +1,8 @@
-* [AboutMe](/AboutMe.md)
-* [Vagrant](/Vagrant.md)
-* [Berkshelf](/Berkshelf.md)
-* [Kernel](/Kernel.md)
-* [Chef](/Chef.md)
-* [MagickLamp](/MagickLamp)
-* [CentOS6](CentOS6.md)
+# DQNEO's memo
+
+ここはDQNEOのメモ用レポジトリです。
+昔使ってたPukiwikiみたいに使います。
+ブログ記事にならないような断片知識をメモ書きするのに使います。
 
 ## Links to my other repos
 
