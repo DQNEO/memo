@@ -15,7 +15,24 @@ Server built:   Sep  9 2014 14:48:20
 * sudo apachectl reload
 * sudo apachectl restart
 
-DocumentRoot: /Library/WebServer/Documents/
+### DocumentRoot
+
+/Library/WebServer/Documents/
+
+### 設定ファイル
+
+```
+$ ls /etc/apache2 -l
+total 44
+drwxr-xr-x 15 root wheel   510 10 25 11:49 extra/
+-rw-r--r--  1 root wheel 20786  9 10 07:11 httpd.conf
+-rw-r--r--  1 root wheel 18121  2 18  2014 httpd.conf~previous
+-rw-r--r--  1 root wheel 13077  9 10 07:09 magic
+-rw-r--r--  1 root wheel 53258  9 10 07:09 mime.types
+drwxr-xr-x  4 root wheel   136  9 10 07:09 original/
+drwxr-xr-x  3 root wheel   102  9 10 07:11 other/
+drwxr-xr-x  4 root wheel   136 10 25 11:54 users/
+```
 
 ### apachectrlとは何か？
 
