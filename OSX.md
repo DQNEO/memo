@@ -42,3 +42,14 @@ $ head /usr/sbin/apachectl
 ```
 
 単なるshスクリプトなので読め( ˘ω˘)
+
+# PHPを有効にする方法
+
+/etc/apache2/httpd.conf の169行目あたり
+
+```conf
+#LoadModule php5_module libexec/apache2/libphp5.so
+```
+このコメントを外してreloadする。
+
+
