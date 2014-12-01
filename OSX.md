@@ -2,7 +2,17 @@
 
 ## 組み込みのApacheについて
 
-* 起動 sudo apachectl start
-* 停止 sudo apachectl stop
-* 再読込み sudo apachectl reload
-* 再起動 sudo apachectl restart
+### version
+```
+$ /usr/sbin/httpd -v
+Server version: Apache/2.4.9 (Unix)
+Server built:   Sep  9 2014 14:48:20
+```
+
+### 起動、停止、再読込、再起動
+* sudo apachectl start
+* sudo apachectl stop
+* sudo apachectl reload
+* sudo apachectl restart
+
+DocumentRoot: /Library/WebServer/Documents/
