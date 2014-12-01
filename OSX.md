@@ -65,3 +65,9 @@ $ echo '<?php echo PHP_VERSION . PHP_EOL;' > hello.php
 $ curl http://localhost/hello.php
 5.5.14
 ```
+
+phpinfoを見る！
+```
+$ echo '<?php phpinfo();' > info.php
+$ open http://localhost/info.php
+```
