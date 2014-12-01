@@ -6,7 +6,7 @@
 * [MagickLamp](/MagickLamp)
 * [CentOS6](CentOS6.md)
 
-## Repos
+## Links to my other repos
 
 * [knife-solo-renshu](https://github.com/DQNEO/knife-solo-renshu)
 * [GitInternals](https://github.com/DQNEO/GitInternals)
