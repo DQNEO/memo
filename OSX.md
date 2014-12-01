@@ -16,3 +16,12 @@ Server built:   Sep  9 2014 14:48:20
 * sudo apachectl restart
 
 DocumentRoot: /Library/WebServer/Documents/
+
+### apachectrlとは何か？
+
+```
+$ head /usr/sbin/apachectl
+#!/bin/sh
+```
+
+単なるshスクリプトなので読め( ˘ω˘)
