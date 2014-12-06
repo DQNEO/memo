@@ -30,14 +30,14 @@ cookbook 'chef-hostname' , git: 'git://github.com/lxmx/chef-hostname.git'
 # github 
 cookbook 'mongodb', github: 'edelight/chef-mongodb'
 # github
-cookbook 'berkshelf-minimum', github: 'DQNEO/cookbook-berkshelf-minimum'
+cookbook 'hello', github: 'DQNEO/cookbook-hello'
  
 # local path
-cookbook 'berkshelf-minimum', path: '/tmp/cookbook-berkshelf-minimum'
+cookbook 'hello', path: '/tmp/cookbook-hello'
  
 # 別名で取得することもできる。
 # knife solo cook -o hello $remote のように実行できる。
-cookbook 'hello', github: 'DQNEO/cookbook-berkshelf-minimum'
+cookbook 'hello', github: 'DQNEO/cookbook-hello'
 ```
 
 ## BerksfileとBerksfile.lockの関係
@@ -49,7 +49,7 @@ Bundler/Composerなどと同じらしいのだが、イマイチわかってな�
 
 ミニマムレポジトリを作った
 
-https://github.com/DQNEO/cookbook-berkshelf-minimum
+https://github.com/DQNEO/cookbook-hello
 
 
 ## わからないこと
