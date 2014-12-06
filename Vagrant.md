@@ -52,7 +52,6 @@ DNSがらみのやつ、on/offどっちが速いのか不明
 
 * gem でvagrantを入れるのは古い。(ver1.0まで)
 * 各種サブコマンド(up, reload,provisionなど)はプラグインになってるみたい
-* ソースコードはGithubにある
 
 ### Windows
 
