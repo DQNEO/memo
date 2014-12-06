@@ -18,7 +18,7 @@ Berksfileをもとにcookbooksを取得して./cookbooks/ 内に設置してく�
 ## Berksfileの書き方
 
 ```Ruby
-source "https://api.berkshelf.com/"
+source "https://supermarket.chef.io"
  
 # use opscode cookbook
 cookbook 'yum'
