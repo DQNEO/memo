@@ -5,6 +5,26 @@
  * execコマンド
  * フォルダ共有機能？
 
+## チュートリアル
+* https://gist.github.com/yasushiyy/9923d68e4811d458fbe0
+* http://docs.docker.com/userguide/dockerizing/
+
+## Hello World
+```
+$ sudo docker run ubuntu:14.04 /bin/echo 'Hello world'
+Hello world
+$ sudo docker run centos:centos6 /bin/echo 'Hello world'
+Hello world
+```
+
+解説
+```
+docker run イメージ名　コマンド
+```
+
+`ubuntu:14.04` : イメージ名。:から右はタグ名っぽい。省略したら:latestを指定したのと同じになる。
+
+
 ## 用語
 Image マシンイメージ。AMIみたいなやつ。
 Container  プロセスのこと
