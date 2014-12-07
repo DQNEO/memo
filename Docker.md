@@ -24,6 +24,8 @@ docker run イメージ名　コマンド
 
 `ubuntu:14.04` : イメージ名。:から右はタグ名っぽい。省略したら:latestを指定したのと同じになる。
 
+この hello worldが終了すると、コンテナは終了する。永続化されないっぽい？
+
 
 ## 用語
 Image マシンイメージ。AMIみたいなやつ。
@@ -71,6 +73,12 @@ sudo docker build --rm=true -t dqneo/projectname .
 
 ## run
 コンテナを起動する。
+
+pullせずにいきなりDockerHub上のイメージを指定することができる。
+
+```
+docker run kazeburo/perl perl -v
+```
 
 -t 仮想ttyをわりあてる
 -i 
