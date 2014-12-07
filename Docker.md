@@ -13,5 +13,49 @@ DockerHub  イメージ共有レポジトリのこと。Registryと同じか。
 ## 公式イメージ
 単に`centos`とうつと、centos7が入ってしまう。`centos/centos6`と打てばv6を指定できる。
 
+# コマンドの解説
+## 副作用のないコマンドたち
+ps, images は、状態を見るコマンドなので副作用がない。
 
-## 使い方
+```
+sudo docker ps
+sudo docker images
+```
+## pull
+DockerHUbからイメージをダウンロードしてくる。
+
+```
+docker pull centos  (centos7が入る)
+docker pull ubuntu  (14.04が入る)
+```
+
+上記は、centos:latest, ubuntu:latestを指定したのと同じ意味である。
+centos6を取得したい場合はこうする。
+
+```
+docker pull centos:centos6
+```
+
+ひとが作ったイメージを取得したい場合はこう
+```
+docker pull kazeburo/perl
+```
+
+## build
+buildとは、Dockerfileをもとにコマンドを実行してイメージを作成することをいう。(たぶん)
+
+`Dockerfile`のあるディレクトリで下記を実行すると、ビルドできる。
+```
+sudo docker build --rm=true -t dqneo/projectname .
+```
+
+## run
+コンテナを起動する。
+
+-t 仮想ttyをわりあてる
+-i 
+
+-vで、共有ディレクトリをマウントできる。(NFS的な)
+```
+sudo docker run -v /vagrant:/opt/vagrant -t -i centos/centos6 df -h
+```
