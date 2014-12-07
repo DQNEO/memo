@@ -68,7 +68,7 @@ buildとは、Dockerfileをもとにコマンドを実行してイメージを�
 
 `Dockerfile`のあるディレクトリで下記を実行すると、ビルドできる。
 ```
-sudo docker build --rm=true -t dqneo/projectname .
+sudo docker build --rm=true --tag="dqneo/projectname" .
 ```
 
 ## run
