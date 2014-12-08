@@ -35,15 +35,15 @@ DockerHub  イメージ共有レポジトリのこと。Registryと同じか。
 ## 公式イメージ
 単に`centos`とうつと、centos7が入ってしまう。`centos/centos6`と打てばv6を指定できる。
 
-# コマンドの解説
-## 副作用のないコマンドたち
+## コマンドの解説
+### 副作用のないコマンドたち
 ps, images は、状態を見るコマンドなので副作用がない。
 
 ```
 sudo docker ps
 sudo docker images
 ```
-## pull
+### pull
 DockerHUbからイメージをダウンロードしてくる。
 
 ```
@@ -63,7 +63,7 @@ docker pull centos:centos6
 docker pull kazeburo/perl
 ```
 
-## build
+### build
 buildとは、Dockerfileをもとにコマンドを実行してイメージを作成することをいう。(たぶん)
 
 `Dockerfile`のあるディレクトリで下記を実行すると、ビルドできる。
@@ -71,7 +71,7 @@ buildとは、Dockerfileをもとにコマンドを実行してイメージを�
 sudo docker build --rm=true --tag="dqneo/projectname" .
 ```
 
-## run
+### run
 コンテナを起動する。
 
 pullせずにいきなりDockerHub上のイメージを指定することができる。
