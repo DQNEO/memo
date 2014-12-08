@@ -87,3 +87,17 @@ docker run kazeburo/perl perl -v
 ```
 sudo docker run -v /vagrant:/opt/vagrant -t -i centos/centos6 df -h
 ```
+
+### rm 
+コンテナの削除
+
+```
+docker rm コンテナID
+```
+
+### rmi
+イメージの削除
+
+```
+docker rmi イメージ削除
+```
