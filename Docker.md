@@ -43,6 +43,13 @@ ps, images は、状態を見るコマンドなので副作用がない。
 sudo docker ps
 sudo docker images
 ```
+
+## sudo なしでdockerコマンドを叩けるようにする
+ユーザをdockerグループに所属させればよい
+```
+sudo usermod --append --groups docker vagrant
+```
+
 ### pull
 DockerHUbからイメージをダウンロードしてくる。
 
