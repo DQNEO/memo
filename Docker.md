@@ -73,11 +73,11 @@ docker pull kazeburo/perl
 ```
 
 ### build
-buildとは、Dockerfileをもとにコマンドを実行してイメージを作成することをいう。(たぶん)
+buildとは、Dockerfileを使ってイメージを作成すること。
 
-`Dockerfile`のあるディレクトリで下記を実行すると、ビルドできる。
+`builddir/Dockerfile` を用意した上で下記のようにする
 ```
-sudo docker build --rm=true --tag="dqneo/projectname" .
+sudo docker build --rm=true --tag="dqneo/projectname" builddir
 ```
 
 ### run
