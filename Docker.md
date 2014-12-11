@@ -13,9 +13,9 @@
 
 ## Hello World
 ```
-$ sudo docker run ubuntu:14.04 /bin/echo 'Hello world'
+$ docker run ubuntu:14.04 /bin/echo 'Hello world'
 Hello world
-$ sudo docker run centos:centos6 /bin/echo 'Hello world'
+$ docker run centos:centos6 /bin/echo 'Hello world'
 Hello world
 ```
 
@@ -42,8 +42,9 @@ DockerHub  イメージ共有レポジトリのこと。Registryと同じか。
 ps, images は、状態を見るコマンドなので副作用がない。
 
 ```
-sudo docker ps
-sudo docker images
+docker ps
+docker ps -a
+docker images
 ```
 
 ## sudo なしでdockerコマンドを叩けるようにする
@@ -77,7 +78,7 @@ buildとは、Dockerfileを使ってイメージを作成すること。
 
 `builddir/Dockerfile` を用意した上で下記のようにする
 ```
-sudo docker build --rm=true --tag="dqneo/projectname" builddir
+docker build --rm=true --tag="dqneo/projectname" builddir
 ```
 
 ### run
@@ -94,7 +95,7 @@ docker run kazeburo/perl perl -v
 
 -vで、共有ディレクトリをマウントできる。(NFS的な)
 ```
-sudo docker run -v /vagrant:/opt/vagrant -t -i centos/centos6 df -h
+docker run -v /vagrant:/opt/vagrant -t -i centos/centos6 df -h
 ```
 
 ### rm 
