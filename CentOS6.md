@@ -8,6 +8,8 @@ sudo rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 sudo rpm -Uvh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
 ```
 
+※ 上のrpm -Uvhと下のyum installは同じものなのか？要確認
+
 ## epel,dockerを追加
 
 ```
