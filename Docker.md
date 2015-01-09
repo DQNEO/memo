@@ -50,7 +50,9 @@ docker images
 ## sudo なしでdockerコマンドを叩けるようにする
 ユーザをdockerグループに所属させればよい
 ```
-sudo usermod --append --groups docker vagrant
+sudo gpasswd -a $USER docker
+# 再ログインすると反映される。
+exit
 ```
 
 ### pull
