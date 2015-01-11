@@ -5,6 +5,20 @@
 ## sudo
  * useradd , wheel, visudo
 
+パスワードなしでsudoする方法
+
+/etc/sudoers.d/01_userfoo を作って、
+
+```
+userfoo      ALL=(ALL)       NOPASSWD:ALL
+```
+または
+
+/etc/sudoers.d/00_wheel を作って
+```
+%wheel        ALL=(ALL)       ALL
+```
+
 ## firewall
 * iptablesを設定(不要なポートは閉じる　またSSHには国内からのみアクセス可とする)
 
