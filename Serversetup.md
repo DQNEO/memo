@@ -1,8 +1,6 @@
 # サーバ構築マニュアル
 
-## sshd
-* 公開鍵をアップしてsshdを設定　[[sshd]]
-* 以後、一般ユーザでログインしてsudoで作業する
+## [sshd](sshd.md)
 
 ## sudo
  * useradd , wheel, visudo
