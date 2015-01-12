@@ -40,3 +40,11 @@ sudo yum install -y docker
 ```
 
 [sudoなしでdocker](/Docker.md#sudo-%E3%81%AA%E3%81%97%E3%81%A7docker%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E5%8F%A9%E3%81%91%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B)
+
+### nginx
+インストール
+
+```
+rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+yum install --enablerepo=nginx -y nginx
+```
