@@ -19,7 +19,7 @@ sudo yum install -y nano
 ```
 
 
-### [sshd](/sshd)設定変更 (ポート番号変更、root不許可、パスワード認証不許可
+### [sshd](/sshd.md)設定変更 (ポート番号変更、root不許可、パスワード認証不許可
 /etc/ssh/sshd_config を編集後、reloadする
 ```
 sudo systemctl reload sshd.service
