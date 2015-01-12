@@ -12,4 +12,5 @@ ssh -p 22 centos@$remote_id
 
 ## 最初にやること
 
+[sshd](/sshd) (ポート番号変更、root不許可、パスワード認証不許可
 
