@@ -31,8 +31,12 @@ setenforce 0
 ```
 ### yumまわり
 
-* sudo yum update -y
-* sudo yum install -y epel-release
+```
+# なにはなくともupdate
+sudo yum update -y
+# epel導入
+sudo yum install -y epel-release
+```
 
 ### docker
 ```
