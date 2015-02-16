@@ -38,12 +38,32 @@ sudo yum update -y
 sudo yum install -y epel-release
 ```
 
+## systemd
+サービスの起動、停止、確認
+```
+# 起動
+sudo systemctl start httpd.service
+# 停止
+sudo systemctl stop httpd.service
+# 状態確認
+sudo systemctl status httpd.service
+```
+
+サービの自動起動登録、解除
+```
+# 自動起動on
+sudo systemctl enable httpd.service
+# 自動起動off
+sudo systemctl disable httpd.service
+```
+
 ### docker
 ```
 sudo yum install -y docker
 ```
 
 [sudoなしでdocker](/Docker.md#sudo-%E3%81%AA%E3%81%97%E3%81%A7docker%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E5%8F%A9%E3%81%91%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B)
+
 
 ### nginx
 インストール
