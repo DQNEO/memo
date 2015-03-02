@@ -11,3 +11,11 @@
 
 ## Furlを使う
 ## HTTP::Request, HTTP::Responseのコードを読む
+
+## 学習法
+* modern perlに追いつく方法
+* 必読本をリストアップ
+ * リャマ
+ * アルパカ
+ * ラクダ本
+ * PBP
