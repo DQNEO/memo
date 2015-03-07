@@ -1,5 +1,17 @@
 # Chefに関するメモ
 
+## OSとバージョンを判定して処理を分岐する方法
+
+```
+log node[:platform_family] #  => rhel
+log node[:platform_version] # => 6.6
+log node[:platform_version].to_i # =>6
+
+if (platform_family?('rhel') && node['platform_version'].to_i == 7)
+
+end
+```
+
 ## the Omnibus Installer
 これを使うと一発でChefをインストールできる。
 ```shell
