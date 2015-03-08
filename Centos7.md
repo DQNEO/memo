@@ -75,6 +75,7 @@ yum install --enablerepo=nginx -y nginx
 
 ## timezone
 http://thinkit.co.jp/story/2014/12/11/5388/page/0/2
+
 `timedatectl`というコマンドを使う
 
 ```
