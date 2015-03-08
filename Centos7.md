@@ -72,3 +72,27 @@ sudo yum install -y docker
 rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
 yum install --enablerepo=nginx -y nginx
 ```
+
+## timezone
+http://thinkit.co.jp/story/2014/12/11/5388/page/0/2
+`timedatectl`というコマンドを使う
+
+```
+# timedatectl
+      Local time: 金 2014-09-05 19:41:11 JST
+  Universal time: 金 2014-09-05 10:41:11 UTC
+        RTC time: 金 2014-09-05 10:41:11
+        Timezone: Asia/Tokyo (JST, +0900)
+     NTP enabled: yes
+NTP synchronized: yes
+ RTC in local TZ: no
+      DST active: n/a
+
+```
+
+```
+# timezoneを表示
+$ timedatectl list-timezones
+# timezoneを設定
+$ timedatectl set-timezone Asia/Tokyo
+```
