@@ -15,5 +15,7 @@ Fluentに同梱されてるプラグイン。MongoDBへの保存をやってく�
 
 https://github.com/fluent/fluent-plugin-mongo/issues/35
 
-設定ファイルで`time_key timestamp`と記述すればよいらしいのでやってみる。
+設定ファイルで`time_key hoge`と記述すれば`hoge`に変更できた。
+
+PR送った https://github.com/fluent/fluentd-docs/pull/161
 
