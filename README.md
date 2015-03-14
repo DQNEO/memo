@@ -17,7 +17,11 @@ https://help.github.com/articles/github-flavored-markdown/
  * perl-modeがイマイチな気がするので何とかする
  * emacs-clientをためす
  * perl,phpなどのパスの通し方を調べる
+ * magitを使う
 * shell環境
  * z (zaw)の使い方を調べる
  * ghq, pecoを使う
+* git
+ * git logを改善する
+ * hubコマンドを使いこなす
 
