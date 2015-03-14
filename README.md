@@ -16,4 +16,4 @@ https://help.github.com/articles/github-flavored-markdown/
  * php-modeが壊れたので入れなおす
  * perl-modeがイマイチな気がするので何とかする
  * emacs-clientをためす
- * perl,phpなどのパスの通し方を調べる~=
+ * perl,phpなどのパスの通し方を調べる
