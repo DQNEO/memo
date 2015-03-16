@@ -24,4 +24,7 @@ https://help.github.com/articles/github-flavored-markdown/
 * git
  * git logを改善する
  * hubコマンドを使いこなす
-
+* Docker
+ * docker-perlのレポジトリを統合する
+ * docker-phpはじめる
+ 
