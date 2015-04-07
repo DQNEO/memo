@@ -8,3 +8,7 @@
 
 ## 例：sshdのポート番号変更
 http://qiita.com/DQNEO/items/5780d81b2e0af4cc1544
+
+## see also
+* http://qiita.com/shrkw/items/8410e9cb65eb789a40e1
+* http://qiita.com/wjn/items/ceb8bdbcaaafcd7ace54
