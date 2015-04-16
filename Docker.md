@@ -48,9 +48,15 @@ docker images
 ```
 
 ## sudo なしでdockerコマンドを叩けるようにする
-ユーザをdockerグループに所属させればよい
+dockerグループを作ってユーザをそこに所属させればよい
+
 ```
+# dockerグループがなければ作る
+sudo groupadd docker
+
+# 現行ユーザをdockerグループに所属させる
 sudo gpasswd -a $USER docker
+
 # 再ログインすると反映される。
 exit
 ```
