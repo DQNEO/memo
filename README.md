@@ -25,10 +25,8 @@ https://help.github.com/articles/github-flavored-markdown/
  * magitを使う
 * shell環境
  * z (zaw)の使い方を調べる
- * ghq, pecoを使う
 * git
  * git logを改善する
- * hubコマンドを使いこなす
 * Docker
  * docker-perlのレポジトリを統合する
  * docker-phpはじめる
