@@ -10,6 +10,11 @@ https://help.github.com/articles/github-flavored-markdown/
 * [knife-solo-renshu](https://github.com/DQNEO/knife-solo-renshu)
 * [GitInternals](https://github.com/DQNEO/GitInternals)
 
+## To use
+* PHP7
+* Nginx
+* H2O
+
 ## TODO
 * Emacs
  * shell-popが使いにくいので古いバージョンに戻す
