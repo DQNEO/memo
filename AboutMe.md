@@ -3,12 +3,62 @@
 # ブログ
 [DQNEO起業日記](http://dqn.sakusakutto.jp/)
 
-#### Tophatenar
+Tophatenar
 
 ![Tophatenar](http://tophatenar.com/chart/correlation_small/http://dqn.sakusakutto.jp/)
 
 [はてぶ人気記事の一覧](http://b.hatena.ne.jp/entrylist?sort=count&url=http%3A%2F%2Fdqn.sakusakutto.jp%2F
 )
+
+# DQNEOを支える技術
+* 語学
+ * 英語
+ * フランス語
+ * スペイン語
+ * 他少々(イタリア語、ドイツ語、 ラテン語、タイ語)
+* ビジネス
+ * マーケティング(Kotler, 統計学)
+ * 管理会計、経理、KPI管理、財務分析
+ * プレゼンテーション
+ * Office(Excel, PowerPoint, Access)
+ * Amazonマーケットプレイス
+* エンジニアリング
+ * PHP
+  * Ethna/Ethnam
+  * Symfony
+  * php-fluent-logger
+ * Perl
+  * Amazon::S3::Thin
+  * Amazon::S3::FastUploader
+  * Web::Query, Web::Scraper
+ * JavaScript
+  * JSWikimini
+ * Java
+ * C
+ * Ruby, Rails
+ * Bash
+ * AWS(特にAmazonS3)
+ * Chef
+ * Vagrant
+ * Docker
+ * Apache
+ * MongoDB
+ * NodeJS, Express4
+ * Nginx
+ * Git
+ * ImageMagick
+ * Subversion
+ * PostgreSQL
+ * MySQL
+ * Memcached
+ * TokyoTyrant
+ * Android(Native)
+ * JScript
+ * Excel VBA
+ * Powerpoint VBA
+ * Make
+ * Assembler
+
 
 # 過去の主なPullRequest
 
@@ -34,59 +84,6 @@
  * https://github.com/tokuhirom/Web-Query/pull/27
  * https://github.com/tokuhirom/Web-Query/pull/28
 
-
-# スキル
-* Webアプリケーション開発・運用
-* サーバ構築・管理・運用
-
-## 使える言語(得意な順)
-
-* PHP
-* JavaScript(クライアントサイドが主。node.jsも少し。)
-* Perl
-* ShellScript(Bash)
-* Java(デスクトップアプリ,Android)
-* JScript(Windowsバッチ処理)
-* VBA(Excel, PowerPoint)
-
-## 使用経験のあるミドルウェア(得意な順)
-* PostgreSQL
-* Apache
-* Memcached
-* MongoDB
-* ChefSolo
-* TokyoTyrant
-* MySQL
-* Nginx
-* Plack/PSGI
-
-## 開発環境
-Emacs/zsh/Screen/Git が4種の神器
-
-基本的にはLinuxサーバにログインして開発します。
-
-* OS
- * 仕事:CentOS6(クラウド)
- * プライベートVagrant + VirtualBox + CentOS6
-
-* エティタ
- * Emacs (メイン)
- * nano (設定ファイルの編集とか用)
- * Eclipse(Java開発)
- * 秀丸(Windowsでメモ帳のかわりに)
-
-## クラウド使用経験
-* AWS
-  * EC2/EBS
-  * AmazonS3
-  * Elastic IP
-  * SQS
-  * Route53
-* NiftyCloud
-  * small～Largeまで
-  * Disk40/Disk200
-  * LoadBalancer
-* DTIのVPS(趣味で)
 
 ## 得意分野
 
@@ -127,21 +124,6 @@ Emacs/zsh/Screen/Git が4種の神器
 
 http://www.slideshare.net/DQNEO/presentations
 
-# 今後のベクトル
-## いま勉強中
-* C言語
-* Git/Github
-* MongoDB
-* Node.js(express)
-
-## 克服したいと考えている苦手分野
-* make
-* .so, .a, ldd, ldconfigなどの「共有ライブラリ」まわりの仕組み
-* C言語(カーネルやミドルウェアのソースコード読めるようになりたい)
-* PHPの内部構造(C言語レベルでの挙動)
-* iptables
-* ChefSolo
-
 ## 尊敬するプログラマ
-* Linus Torvals/Larry Wall/Richard Stallman
+* Linus Torvals/Larry Wall/Richard Stallman/Fabien/
 * その他ハッカーのみなさん
