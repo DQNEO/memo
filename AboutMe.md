@@ -70,7 +70,7 @@
 |C|ltsview| https://github.com/DQNEO/c-ltsview |LTSVパーサ|
 |C|minigit| https://github.com/DQNEO/minigit |Gitの再発明|
 |C|mingoose| https://github.com/DQNEO/mingoose |マルチスレッドのWebサーバ|
-
+|C|ec2-role-parser | https://github.com/chizuco/c-ec2role-parser | EC2 Rola AMIのパーサ|
 # 過去に送ったPullRequestなど
 
 ## PHP
