@@ -30,6 +30,7 @@
  * JSWikimini
  * くろんメーカ
  * DQNEO Calender(jQueryプラグイン)
+* Ruby
 * Java
 * C
 * Bash
@@ -37,9 +38,9 @@
 * Chef
 * Vagrant
 * Docker
-* Apache
 * Git
-* Ruby, Rails
+* Apache
+* Rails, Sinatra
 * NodeJS, Express4
 * Nginx
 * ImageMagick
