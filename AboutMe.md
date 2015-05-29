@@ -92,6 +92,10 @@
 * knife-solo
  * https://github.com/matschaffer/knife-solo/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
 
+## Dockerfile
+* tutumcloud/tutum-docker-mongodb
+ * https://github.com/tutumcloud/tutum-docker-mongodb/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
+
 ## 他
 * [Subversionクライアントのバグ修正パッチ公開](http://dqn.sakusakutto.jp/2012/05/svn_E235000_In_file_subversion_libsvn_wc_update_editor.c_line_1583%20.html)
 
