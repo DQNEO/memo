@@ -60,8 +60,10 @@
 
 # 代表的プロダクト
 
-|PHP|Ethnam|https://github.com/DQNEO/ethnam/|
-|Bash|Rsolo| https://github.com/DQNEO/rsolo/|
+|言語|名称|URL|概要|
+|---|---|---|---|
+|PHP|Ethnam|https://github.com/DQNEO/ethnam/|PHPのWAF|
+|Bash|Rsolo| https://github.com/DQNEO/rsolo/|Knife SoloのBash実装|
 
 # 過去に送ったPullRequestなど
 
