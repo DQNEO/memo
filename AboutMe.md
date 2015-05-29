@@ -25,13 +25,7 @@
 
 エンジニアリング
 * PHP
- * Ethna/Ethnam
- * Symfony
- * php-fluent-logger
 * Perl
- * Amazon::S3::Thin
- * Amazon::S3::FastUploader
- * Web::Query, Web::Scraper
 * JavaScript
  * JSWikimini
  * くろんメーカ
@@ -74,6 +68,12 @@
 |C|minigit| https://github.com/DQNEO/minigit |Gitの再発明|
 |C|mingoose| https://github.com/DQNEO/mingoose |マルチスレッドのWebサーバ|
 |C|ec2-role-parser | https://github.com/chizuco/c-ec2role-parser | EC2 Rola AMIのパーサ|
+|Chef|Cookbookを20個ほど公開中 |https://github.com/search?p=1&q=user%3ADQNEO+cookbook&type=Repositories |
+
+
+
+
+
 # 過去に送ったPullRequestなど
 
 ## PHP
@@ -94,10 +94,6 @@
 ## Ruby
 * knife-solo
  * https://github.com/matschaffer/knife-solo/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
-
-## Chef
-* Cookbookを20個ほど公開中
- * https://github.com/search?p=1&q=user%3ADQNEO+cookbook&type=Repositories
 
 ## Dockerfile
 * tutumcloud/tutum-docker-mongodb
