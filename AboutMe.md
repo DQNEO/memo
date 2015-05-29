@@ -71,16 +71,13 @@
  
 ## Ruby
 * knife-solo
- * https://github.com/matschaffer/knife-solo/pull/401
+ * https://github.com/matschaffer/knife-solo/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
 
 ## Perl
-* Web::Scraper
- * https://github.com/miyagawa/web-scraper/pull/16
 * Web::Query
- * https://github.com/tokuhirom/Web-Query/pull/25
- * https://github.com/tokuhirom/Web-Query/pull/26
- * https://github.com/tokuhirom/Web-Query/pull/27
- * https://github.com/tokuhirom/Web-Query/pull/28
+ * https://github.com/tokuhirom/Web-Query/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
+* Web::Scraper
+ * https://github.com/miyagawa/web-scraper/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
 
 
 ## 得意分野
