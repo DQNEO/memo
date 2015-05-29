@@ -62,11 +62,14 @@
 
 |言語|名称|URL|概要|
 |---|---|---|---|
-|PHP|Ethnam|https://github.com/DQNEO/ethnam/|PHPのWAF|
-|Bash|Rsolo| https://github.com/DQNEO/rsolo/|Knife SoloのBash実装|
-|C|ltsview| https://github.com/DQNEO/c-ltsview/|LTSVパーサ|
-|C|minigit| https://github.com/DQNEO/minigit/|Gitの再実装|
-|C|mingoose| https://github.com/DQNEO/mingoose/|マルチスレッドのWebサーバ|
+|PHP|Ethnam|https://github.com/DQNEO/ethnam |PHPのWAF|
+|Bash|Rsolo| https://github.com/DQNEO/rsolo |Knife SoloのBash実装|
+|Perl|http://search.cpan.org/~dqneo/Amazon-S3-FastUploader |S3用 並列アップローダ|
+|Perl|http://search.cpan.org/~dqneo/Amazon-S3-Thin |S3用 HTTPクライアント|
+|Java|https://github.com/DQNEO/S3ParallelUploader |S3用 並列アップローダ(マルチスレッド)|
+|C|ltsview| https://github.com/DQNEO/c-ltsview |LTSVパーサ|
+|C|minigit| https://github.com/DQNEO/minigit |Gitの再発明|
+|C|mingoose| https://github.com/DQNEO/mingoose |マルチスレッドのWebサーバ|
 
 # 過去に送ったPullRequestなど
 
@@ -77,7 +80,7 @@
  * https://github.com/symfony/symfony/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
 * fluent-logger-php
  * https://github.com/fluent/fluent-logger-php/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
- 
+
 
 ## Perl
 * Web::Query
@@ -88,6 +91,9 @@
 ## Ruby
 * knife-solo
  * https://github.com/matschaffer/knife-solo/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
+
+## 他
+* [Subversionクライアントのバグ修正パッチ公開](http://dqn.sakusakutto.jp/2012/05/svn_E235000_In_file_subversion_libsvn_wc_update_editor.c_line_1583%20.html)
 
 
 ## 得意分野
@@ -111,9 +117,7 @@
 * [Ethna](https://github.com/ethna/ethna)
 * [Ethnam](https://github.com/DQNEO/ethnam)
 * [minigit](https://github.com/DQNEO/minigit)
-* CPANモジュール (Amazon::S3::FastUploader) http://search.cpan.org/~dqneo/
-* JavaのAmazonS3アップローダ [S3ParallelUploader](https://github.com/DQNEO/S3ParallelUploader)
-* [Subversionクライアントのバグ修正パッチ公開](http://dqn.sakusakutto.jp/2012/05/svn_E235000_In_file_subversion_libsvn_wc_update_editor.c_line_1583%20.html)
+* JavaのAmazonS3アップローダ [S3ParallelUploader]()
 * その他Githubにて多数公開中
 
 ## 勉強会での発表
