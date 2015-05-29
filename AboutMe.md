@@ -32,6 +32,8 @@
  * Web::Query, Web::Scraper
 * JavaScript
  * JSWikimini
+ * くろんメーカ
+ * DQNEO Calender(jQueryプラグイン)
 * Java
 * C
 * Bash
@@ -106,16 +108,6 @@
 * シンプルでメンテナンスしやすいサーバ構成を考える
 * 難しい技術をわかりやすく説明する
 
-# アウトプット
-
-## これまでつくった作品
-
-* JSWikimini2
-* YukiwikiminiOnEthna
-* くろんメーカ
-* DQNEO カレンダー(jQueryプラグイン)
-
-
 ## 勉強会での発表
 * YAPC::Asia2012 LTソン 「桐島、ファイルに保存するのやめるってよ」
 * hachiojipm #23 「Gitの内部構造を調べたらどうしてこうなった」
@@ -125,4 +117,4 @@ http://www.slideshare.net/DQNEO/presentations
 
 ## 尊敬するプログラマ
 * Linus Torvals/Larry Wall/Richard Stallman/Fabien/
-* その他ハッカーのみなさん
+* その他大勢のハッカーのみなさん
