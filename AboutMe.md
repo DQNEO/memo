@@ -7,8 +7,6 @@
 
 ![Tophatenar](http://tophatenar.com/chart/correlation_small/http://dqn.sakusakutto.jp/)
 
-)
-
 # DQNEOを支える技術
 * 語学
  * 英語 TOEIC860点(たしか)
