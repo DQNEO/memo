@@ -34,27 +34,26 @@
  * JSWikimini
 * Java
 * C
-* Ruby, Rails
 * Bash
 * AWS(特にAmazonS3)
 * Chef
 * Vagrant
 * Docker
 * Apache
-* MongoDB
+* Git
+* Ruby, Rails
 * NodeJS, Express4
 * Nginx
-* Git
 * ImageMagick
 * Subversion
 * PostgreSQL
 * MySQL
+* MongoDB
 * Memcached
 * TokyoTyrant
 * Android(Native)
 * JScript
-* Excel VBA
-* Powerpoint VBA
+* Excel VBA,Powerpoint VBA
 * Make
 * Assembler
 
