@@ -3,11 +3,10 @@
 # ブログ
 [DQNEO起業日記](http://dqn.sakusakutto.jp/)
 
-Tophatenar
+[はてぶ人気記事の一覧](http://b.hatena.ne.jp/entrylist?sort=count&url=http%3A%2F%2Fdqn.sakusakutto.jp%2F
 
 ![Tophatenar](http://tophatenar.com/chart/correlation_small/http://dqn.sakusakutto.jp/)
 
-[はてぶ人気記事の一覧](http://b.hatena.ne.jp/entrylist?sort=count&url=http%3A%2F%2Fdqn.sakusakutto.jp%2F
 )
 
 # DQNEOを支える技術
