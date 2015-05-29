@@ -7,7 +7,7 @@
 
 ![Tophatenar](http://tophatenar.com/chart/correlation_small/http://dqn.sakusakutto.jp/)
 
-Qiita http://qiita.com/DQNEO/items
+[Qiitaの記事一欄](http://qiita.com/DQNEO/items)
 
 # DQNEOを支える技術
 語学
