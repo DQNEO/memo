@@ -7,12 +7,10 @@
 * [knife-solo-renshu](https://github.com/DQNEO/knife-solo-renshu)
 * [GitInternals](https://github.com/DQNEO/GitInternals)
 
-## To use
-* PHP7
-* Nginx
-* H2O
-
 ## TODO
+* Nginx
+* PHP7
+* H2O
 * Emacs
  * shell-popが使いにくいので古いバージョンに戻す
  * php-modeが壊れたので入れなおす
@@ -26,7 +24,6 @@
  * git logを改善する
 * Docker
  * docker-perlのレポジトリを統合する
- * docker-phpはじめる
  
 ## GFM(GitHub Flavored Markdown)
 https://help.github.com/articles/github-flavored-markdown/
