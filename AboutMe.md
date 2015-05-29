@@ -65,10 +65,9 @@
 * Ethna (多数あり)
  * https://github.com/ethna/ethna/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
 * Symfony
- * https://github.com/symfony/symfony/pull/11811
- * https://github.com/symfony/symfony/pull/11812
-* PHP-src
- * https://github.com/php/php-src/pull/544
+* https://github.com/symfony/symfony/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
+* fluent-logger-php
+ * https://github.com/fluent/fluent-logger-php/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
  
 ## Ruby
 * knife-solo
