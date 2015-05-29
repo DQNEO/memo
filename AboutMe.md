@@ -59,7 +59,7 @@
 * Assembler
 
 
-# 過去の主なPullRequest
+# 過去に送ったPullRequestなど
 
 ## PHP
 * Ethna (多数あり)
