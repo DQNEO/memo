@@ -70,7 +70,8 @@
  * https://github.com/fluent/fluent-logger-php/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
  
 ## Ruby
-* knife-solo    https://github.com/matschaffer/knife-solo/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
+* knife-solo
+ * https://github.com/matschaffer/knife-solo/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
 
 ## Perl
 * Web::Query
