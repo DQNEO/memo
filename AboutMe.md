@@ -95,6 +95,10 @@
 * knife-solo
  * https://github.com/matschaffer/knife-solo/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
 
+## Chef
+* Cookbookを20個ほど公開中
+ * https://github.com/search?p=1&q=user%3ADQNEO+cookbook&type=Repositories
+
 ## Dockerfile
 * tutumcloud/tutum-docker-mongodb
  * https://github.com/tutumcloud/tutum-docker-mongodb/pulls?q=is%3Apr+author%3ADQNEO+is%3Aclosed
