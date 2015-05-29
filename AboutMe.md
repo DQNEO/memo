@@ -64,7 +64,7 @@
 |---|---|---|---|
 |PHP|Ethnam|https://github.com/DQNEO/ethnam/|PHPのWAF|
 |Bash|Rsolo| https://github.com/DQNEO/rsolo/|Knife SoloのBash実装|
-|C|ltsvew| https://github.com/DQNEO/c-ltsvew/|LTSVパーサ|
+|C|ltsview| https://github.com/DQNEO/c-ltsview/|LTSVパーサ|
 |C|minigit| https://github.com/DQNEO/minigit/|Gitの再実装|
 |C|mingoose| https://github.com/DQNEO/mingoose/|マルチスレッドのWebサーバ|
 
