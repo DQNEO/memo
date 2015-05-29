@@ -112,12 +112,6 @@
 * くろんメーカ
 * DQNEO カレンダー(jQueryプラグイン)
 
-## オープンソースへの貢献
-* [Ethna](https://github.com/ethna/ethna)
-* [Ethnam](https://github.com/DQNEO/ethnam)
-* [minigit](https://github.com/DQNEO/minigit)
-* JavaのAmazonS3アップローダ [S3ParallelUploader]()
-* その他Githubにて多数公開中
 
 ## 勉強会での発表
 * YAPC::Asia2012 LTソン 「桐島、ファイルに保存するのやめるってよ」
