@@ -8,53 +8,55 @@
 ![Tophatenar](http://tophatenar.com/chart/correlation_small/http://dqn.sakusakutto.jp/)
 
 # DQNEOを支える技術
-* 語学
- * 英語 TOEIC860点(たしか)
- * フランス語 (仏検2級)
- * スペイン語 (日常会話)
- * その他(イタリア語、ドイツ語、 他)
-* ビジネス
- * マーケティング(Kotler, 統計分析)
- * 管理会計、経理、KPI管理、財務分析
- * プレゼンテーション
- * Office(Excel, PowerPoint, Access)
- * Amazonマーケットプレイス
-* エンジニアリング
- * PHP
-  * Ethna/Ethnam
-  * Symfony
-  * php-fluent-logger
- * Perl
-  * Amazon::S3::Thin
-  * Amazon::S3::FastUploader
-  * Web::Query, Web::Scraper
- * JavaScript
-  * JSWikimini
- * Java
- * C
- * Ruby, Rails
- * Bash
- * AWS(特にAmazonS3)
- * Chef
- * Vagrant
- * Docker
- * Apache
- * MongoDB
- * NodeJS, Express4
- * Nginx
- * Git
- * ImageMagick
- * Subversion
- * PostgreSQL
- * MySQL
- * Memcached
- * TokyoTyrant
- * Android(Native)
- * JScript
- * Excel VBA
- * Powerpoint VBA
- * Make
- * Assembler
+語学
+* 英語 TOEIC860点(たしか)
+* フランス語 (仏検2級)
+* スペイン語 (日常会話)
+* その他(イタリア語、ドイツ語、 他)
+
+ビジネス
+* マーケティング(Kotler, 統計分析)
+* 管理会計、経理、KPI管理、財務分析
+* プレゼンテーション
+* Office(Excel, PowerPoint, Access)
+* Amazonマーケットプレイス
+
+エンジニアリング
+* PHP
+ * Ethna/Ethnam
+ * Symfony
+ * php-fluent-logger
+* Perl
+ * Amazon::S3::Thin
+ * Amazon::S3::FastUploader
+ * Web::Query, Web::Scraper
+* JavaScript
+ * JSWikimini
+* Java
+* C
+* Ruby, Rails
+* Bash
+* AWS(特にAmazonS3)
+* Chef
+* Vagrant
+* Docker
+* Apache
+* MongoDB
+* NodeJS, Express4
+* Nginx
+* Git
+* ImageMagick
+* Subversion
+* PostgreSQL
+* MySQL
+* Memcached
+* TokyoTyrant
+* Android(Native)
+* JScript
+* Excel VBA
+* Powerpoint VBA
+* Make
+* Assembler
 
 
 # 過去の主なPullRequest
