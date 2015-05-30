@@ -6,7 +6,19 @@
 YACC=/usr/local/Cellar/bison/3.0.4/bin/bison
 prefix="/opt/php-master"
 ./configure --prefix=$prefix \
---enable-cli \
---enable-mbstring 
-
+            --enable-cli \
+            --enable-mbstring \
+            --enable-xml \
+            --enable-zip \
+            --enable-ftp \
+            --enable-exif \
+            --enable-fileinfo \
+            --enable-pcntl \
+            --enable-pdo \
+            --with-curl \
+            --with-gd \
+            --with-curl=/usr \
+            --with-openssl \
+            --enable-json
 #--enable-intl \
+#--enable-fpm \
