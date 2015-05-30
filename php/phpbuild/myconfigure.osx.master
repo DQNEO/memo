@@ -17,8 +17,8 @@ prefix="/opt/php-master"
             --enable-pdo \
             --with-curl \
             --with-gd \
-            --with-curl=/usr \
             --with-openssl \
             --enable-json
 #--enable-intl \
 #--enable-fpm \
+
