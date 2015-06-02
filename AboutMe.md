@@ -30,30 +30,36 @@
 * PHP
 * Perl
 * JavaScript
-* Ruby
-* Java
-* C
-* Bash
-* AWS(特にAmazonS3)
 * Chef
 * Vagrant
-* Docker
+* ShellScript(Bash)
+* AWS(特にAmazonS3)
 * Git
-* Apache
-* Rails, Sinatra
-* NodeJS, Express4
-* Nginx
-* ImageMagick
-* Subversion
-* PostgreSQL
-* MySQL
-* MongoDB
-* Memcached
-* TokyoTyrant
-* Android(Native)
 * JScript
+* Subversion
+
+ちょっと使える
+
+* Java
+* C
+* Docker
+* ImageMagick
+* Ruby
+* Apache
+* PostgreSQL
+* Memcached
+* MongoDB
 * Excel VBA,Powerpoint VBA
 * Make
+* TokyoTyrant
+
+さわったことある
+
+* Nginx
+* Rails, Sinatra
+* NodeJS, Express4
+* MySQL
+* Android(Native)
 * Assembler
 
 # 代表的OSSプロダクト
