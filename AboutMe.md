@@ -24,12 +24,12 @@
 * Amazonマーケットプレイス
 
 エンジニアリング
+
+わりと使える
+
 * PHP
 * Perl
 * JavaScript
- * JSWikimini
- * くろんメーカ
- * DQNEO Calender(jQueryプラグイン)
 * Ruby
 * Java
 * C
@@ -56,12 +56,13 @@
 * Make
 * Assembler
 
-# 代表的プロダクト
+# 代表的OSSプロダクト
 
 |言語|名称|URL|概要|
 |---|---|---|---|
 |PHP|Ethnam|https://github.com/DQNEO/ethnam |PHPのWAF|
 |Bash|Rsolo| https://github.com/DQNEO/rsolo |Knife SoloのBash実装|
+|Chef|Cookbookを20個ほど公開中 |https://github.com/search?p=1&q=user%3ADQNEO+cookbook&type=Repositories |
 |Perl|Amazon-S3-FastUploader| [Amazon::S3::FastUploader](http://search.cpan.org/~dqneo/Amazon-S3-FastUploader/lib/Amazon/S3/FastUploader/File.pm) |S3用 並列アップローダ|
 |Perl|Amazon-S3-Thin| [Amazon::S3::Thin](http://search.cpan.org/~dqneo/Amazon-S3-Thin/lib/Amazon/S3/Thin.pm) |S3用 HTTPクライアント|
 |Java|S3ParallelUploader| https://github.com/DQNEO/S3ParallelUploader |S3用 並列アップローダ(マルチスレッド)|
@@ -69,8 +70,12 @@
 |C|minigit| https://github.com/DQNEO/minigit |Gitの再発明|
 |C|mingoose| https://github.com/DQNEO/mingoose |マルチスレッドのWebサーバ|
 |C|ec2-role-parser | https://github.com/chizuco/c-ec2role-parser | EC2 Rola AMIのパーサ|
-|Chef|Cookbookを20個ほど公開中 |https://github.com/search?p=1&q=user%3ADQNEO+cookbook&type=Repositories |
 
+他
+
+ * JSWikimini
+ * くろんメーカ
+ * DQNEO Calender(jQueryプラグイン)
 
 
 
