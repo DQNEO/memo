@@ -126,6 +126,7 @@
 * YAPC::Asia2012 LTソン 「桐島、ファイルに保存するのやめるってよ」
 * hachiojipm #23 「Gitの内部構造を調べたらどうしてこうなった」
 * YAPC::Asia2013 「やさしいGitの内部構造」
+* PHP勉強会@町田 「Ethnamの紹介」
 
 http://www.slideshare.net/DQNEO/presentations
 
