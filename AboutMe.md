@@ -67,6 +67,7 @@
 |言語|名称|URL|概要|
 |---|---|---|---|
 |PHP|Ethnam|https://github.com/DQNEO/ethnam |PHPのWAF|
+|PHP|S3signer|https://github.com/DQNEO/S3Signer|ブラウザからS３アップローするツール|
 |Bash|Rsolo| https://github.com/DQNEO/rsolo |Knife SoloのBash実装|
 |Chef|Cookbookを20個ほど公開中 |https://github.com/search?p=1&q=user%3ADQNEO+cookbook&type=Repositories |
 |Perl|Amazon-S3-FastUploader| [Amazon::S3::FastUploader](http://search.cpan.org/~dqneo/Amazon-S3-FastUploader/lib/Amazon/S3/FastUploader/File.pm) |S3用 並列アップローダ|
