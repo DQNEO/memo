@@ -35,8 +35,6 @@
 * ShellScript(Bash)
 * AWS(特にAmazonS3)
 * Git
-* JScript
-* Subversion
 
 ちょっと使える
 
@@ -49,7 +47,6 @@
 * PostgreSQL
 * Memcached
 * MongoDB
-* Excel VBA,Powerpoint VBA
 * Make
 * TokyoTyrant
 
@@ -61,6 +58,12 @@
 * MySQL
 * Android(Native)
 * Assembler
+
+昔かなりやってた
+
+* JScript
+* Subversion
+* Excel VBA,Powerpoint VBA
 
 # 代表的OSSプロダクト
 
