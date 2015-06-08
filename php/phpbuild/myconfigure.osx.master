@@ -19,6 +19,8 @@ prefix="/opt/php-master"
             --with-curl \
             --with-gd \
             --with-openssl \
+            --with-mcrypt=/opt \
+            --with-zlib  \
             --enable-json
 #--enable-intl \
 #--enable-fpm \
