@@ -3,7 +3,7 @@
 # /opt にlibmcrytpが入ってる前提です。
 
 # `brew install bison`が必要
-YACC=/usr/local/Cellar/bison/3.0.4/bin/bison
+export YACC=/usr/local/Cellar/bison/3.0.4/bin/bison
 prefix="/opt/php-master"
 ./configure --prefix=$prefix \
             --enable-debug \
