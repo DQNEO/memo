@@ -21,6 +21,7 @@ prefix="/opt/php-master"
             --with-openssl \
             --with-mcrypt=/opt \
             --with-zlib  \
+            --with-apxs2 \
             --enable-json
 #--enable-intl \
 #--enable-fpm \
