@@ -22,6 +22,7 @@ prefix="/opt/php-master"
             --with-mcrypt=/opt \
             --with-zlib  \
             --with-apxs2 \
+            --with-pgsql=/usr/local/Cellar/postgresql93/9.3.5  \
             --enable-json
 #--enable-intl \
 #--enable-fpm \
