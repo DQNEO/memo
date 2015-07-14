@@ -16,6 +16,11 @@ prefix="/opt/php-master"
             --enable-fileinfo \
             --enable-pcntl \
             --enable-pdo \
+            --enable-opcache \
+            --enable-phpdbg  \
+            --enable-session \
+            --enable-fpm \
+            --disable-phar \
             --with-curl \
             --with-gd \
             --with-openssl \
@@ -27,5 +32,4 @@ prefix="/opt/php-master"
             --enable-json
 #            --with-pgsql=/usr/local/Cellar/postgresql93/9.3.5  \
 #--enable-intl \
-#--enable-fpm \
 
