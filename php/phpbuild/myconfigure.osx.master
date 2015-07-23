@@ -21,7 +21,7 @@ prefix="/opt/php-master"
             --enable-phpdbg  \
             --enable-session \
             --enable-fpm \
-            --disable-phar \
+            --enable-phar \
             --disable-cgi \
             --with-curl \
             --with-gd \
