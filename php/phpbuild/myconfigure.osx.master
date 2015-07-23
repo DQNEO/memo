@@ -22,6 +22,7 @@ prefix="/opt/php-master"
             --enable-session \
             --enable-fpm \
             --disable-phar \
+            --disable-cgi \
             --with-curl \
             --with-gd \
             --with-openssl \
