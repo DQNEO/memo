@@ -4,6 +4,7 @@
 
 # `brew install bison`が必要
 export YACC=/usr/local/Cellar/bison/3.0.4/bin/bison
+export ARCHFLAGS="-arch x86_64"
 prefix="/opt/php-master"
 ./configure --prefix=$prefix \
             --enable-debug \
