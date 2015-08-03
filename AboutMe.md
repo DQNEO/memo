@@ -16,11 +16,10 @@
 * スペイン語 (日常会話)
 
 ビジネス
-* マーケティング(Kotler, 統計分析)
+* マーケティング(市場調査、簡単な統計統計分析)
 * 管理会計、経理、KPI管理、決算書分析
 * プレゼンテーション
-* Office(Excel, PowerPoint, Access)
-* Amazonマーケットプレイス
+* Officeを使った資料作成 (Excel, PowerPoint, Access)
 
 エンジニアリング
 
