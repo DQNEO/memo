@@ -17,7 +17,7 @@
 
 ビジネス
 * マーケティング(Kotler, 統計分析)
-* 管理会計、経理、KPI管理、財務分析
+* 管理会計、経理、KPI管理、決算書分析
 * プレゼンテーション
 * Office(Excel, PowerPoint, Access)
 * Amazonマーケットプレイス
