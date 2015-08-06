@@ -1,6 +1,7 @@
 # tupai.jsに関する雑なメモ
 
 ## 質問、疑問など
+* ResponseDelegateってなに？なんのためにいるの？
 
 
 ## FAQなど
