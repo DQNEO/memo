@@ -1,5 +1,24 @@
 # tupai.jsに関する雑なメモ
 
+## ほんとに雑多なメモ
+
+リンクのはりかた
+
+テンプレートにこう書いて、
+
+```html
+<a data-ch-name="foo" >...</a>
+```
+
+ViewインスタンスにsetDataすればそれがhrefになる
+
+```js
+var data = {};
+data.foo = "#!/issues?id=" + data.id;
+cell.setData(data);
+```
+
+
 ## 質問、疑問など
 * ResponseDelegateってなに？なんのためにいるの？
 
