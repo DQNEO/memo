@@ -1,4 +1,4 @@
-# OSX(Yosemite)に関するメモ
+# OSXに関するメモ
 
 ## 組み込みのApacheについて
 
