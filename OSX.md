@@ -1,5 +1,25 @@
 # OSXに関するメモ
 
+## 初期セットアップメモ
+
+* homebrew
+ * git,emacs,zsh,screen
+* iTerm
+ * Left option key act as Esc+
+ * ⌘ w をignore
+* GoogleChrome
+* Vagrant
+* VirtualBox
+* Alfred
+* karabiner
+
+
+## 環境設定
+* キーボード
+* トラックパッド
+* 
+
+
 ## 組み込みのApacheについて
 
 ### version
