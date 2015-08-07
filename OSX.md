@@ -13,11 +13,10 @@
 * Alfred
 * karabiner
 
-
 ## 環境設定
 * キーボード
+* spotlightの検索をoffに
 * トラックパッド
-* 
 
 
 ## 組み込みのApacheについて
