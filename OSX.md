@@ -7,6 +7,7 @@
 * iTerm
  * Left option key act as Esc+
  * ⌘ w をignore
+ * key repeatを高速に
 * GoogleChrome
 * Vagrant
 * VirtualBox
