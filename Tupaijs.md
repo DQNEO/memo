@@ -18,6 +18,10 @@ data.foo = "#!/issues?id=" + data.id;
 cell.setData(data);
 ```
 
+## tupaijs serverしたときのtupai本体
+
+node_modules/tupaijs/releases/web/tupai-last.js
+
 
 ## 質問、疑問など
 * ResponseDelegateってなに？なんのためにいるの？
