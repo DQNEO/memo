@@ -5,10 +5,11 @@
 # `brew install bison`が必要
 export YACC=/usr/local/Cellar/bison/3.0.4/bin/bison
 export ARCHFLAGS="-arch x86_64"
-prefix="/opt/php-master"
+prefix="/opt/php"
 ./configure --prefix=$prefix \
             --enable-debug \
             --enable-cli \
+            --enable-json \
             --enable-mbstring \
             --enable-xml \
             --enable-zip \
@@ -22,7 +23,6 @@ prefix="/opt/php-master"
             --enable-session \
             --enable-fpm \
             --enable-phar \
-            --disable-cgi \
             --with-curl \
             --with-gd \
             --with-openssl \
@@ -31,7 +31,5 @@ prefix="/opt/php-master"
             --with-apxs2 \
             --with-mysqli=mysqlnd \
             --with-pdo-mysql=mysqlnd \
-            --enable-json
-#            --with-pgsql=/usr/local/Cellar/postgresql93/9.3.5  \
-#--enable-intl \
+            --disable-cgi
 
