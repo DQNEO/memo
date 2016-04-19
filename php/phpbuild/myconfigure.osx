@@ -4,8 +4,8 @@
 
 # `brew install bison`が必要
 export YACC=/usr/local/Cellar/bison/3.0.4/bin/bison
-export ARCHFLAGS="-arch x86_64"
-prefix="/opt/php"
+#export ARCHFLAGS="-arch x86_64"
+prefix="/opt/php-standard"
 ./configure --prefix=$prefix \
             --enable-debug \
             --enable-cli \
@@ -25,11 +25,13 @@ prefix="/opt/php"
             --enable-phar \
             --with-curl \
             --with-gd \
-            --with-openssl \
+            --with-openssl=/usr/local/Cellar/openssl/1.0.2g \
             --with-mcrypt=/opt \
             --with-zlib  \
-            --with-apxs2 \
             --with-mysqli=mysqlnd \
             --with-pdo-mysql=mysqlnd \
+            --without-apxs2 \
             --disable-cgi
 
+# opensslのリンクでこけたら、Makefileを直接いじればいけるっぽい
+# see http://stackoverflow.com/a/31734677
