@@ -1,37 +1,39 @@
 #!/bin/bash
 # OSX用のPHP configureスクリプト
-# /opt にlibmcrytpが入ってる前提です。
 
-# `brew install bison`が必要
-export YACC=/usr/local/Cellar/bison/3.0.4/bin/bison
-#export ARCHFLAGS="-arch x86_64"
-prefix="/opt/php-standard"
+export ARCHFLAGS="-arch x86_64"
+prefix="/opt/php"
 ./configure --prefix=$prefix \
             --enable-debug \
+            --enable-pdo \
             --enable-cli \
+            --disable-cgi
+
+cat >/dev/null <<EOF
+
+            --with-curl \
             --enable-json \
-            --enable-mbstring \
             --enable-xml \
             --enable-zip \
+            --enable-phpdbg  \
             --enable-ftp \
             --enable-exif \
             --enable-fileinfo \
             --enable-pcntl \
-            --enable-pdo \
             --enable-opcache \
-            --enable-phpdbg  \
             --enable-session \
-            --enable-fpm \
             --enable-phar \
-            --with-curl \
             --with-gd \
-            --with-openssl=/usr/local/Cellar/openssl/1.0.2g \
-            --with-mcrypt=/opt \
             --with-zlib  \
-            --with-mysqli=mysqlnd \
-            --with-pdo-mysql=mysqlnd \
             --without-apxs2 \
-            --disable-cgi
 
+#            --with-mysqli=mysqlnd \
+##           --enable-mbstring \            --with-pdo-mysql=mysqlnd \
+#            --with-libxml-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr \   #         --enable-fpm \
+#            --with-libxml-dir=$(brew --prefix libxml2) \
+#            --with-openssl=/usr/local/Cellar/openssl/1.0.2g \
+#            --enable-fpm \
+
+EOF
 # opensslのリンクでこけたら、Makefileを直接いじればいけるっぽい
 # see http://stackoverflow.com/a/31734677
