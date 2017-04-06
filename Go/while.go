@@ -8,4 +8,11 @@ func main() {
         sum += sum
     }
     fmt.Println(sum)
+
+    sum2 := 1
+    for sum2 < 100 {
+        sum2 += sum2
+    }
+    fmt.Println(sum2)
 }
+
