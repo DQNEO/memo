@@ -7,19 +7,22 @@ prefix="/opt/php"
             --enable-debug \
             --enable-pdo \
             --enable-cli \
-            --disable-cgi
-
-cat >/dev/null <<EOF
-
+            --enable-phar \
+            --enable-phpdbg  \
             --with-curl \
             --enable-json \
             --enable-xml \
+            --enable-pcntl \
+            --with-libxml-dir=$(brew --prefix libxml2) \
+            --disable-cgi
+
+exit
+
+cat >/dev/null <<EOF
+
             --enable-zip \
-            --enable-phpdbg  \
-            --enable-ftp \
             --enable-exif \
             --enable-fileinfo \
-            --enable-pcntl \
             --enable-opcache \
             --enable-session \
             --enable-phar \
@@ -28,7 +31,7 @@ cat >/dev/null <<EOF
             --without-apxs2 \
 
 #            --with-mysqli=mysqlnd \
-##           --enable-mbstring \            --with-pdo-mysql=mysqlnd \
+# --with-pdo-mysql=mysqlnd \
 #            --with-libxml-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr \   #         --enable-fpm \
 #            --with-libxml-dir=$(brew --prefix libxml2) \
 #            --with-openssl=/usr/local/Cellar/openssl/1.0.2g \
