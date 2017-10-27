@@ -1,6 +1,6 @@
 #!/bin/bash
 # OSX用のPHP configureスクリプト
-
+export YACC=$(brew --prefix bison)/bin/bison
 export ARCHFLAGS="-arch x86_64"
 prefix="/opt/php"
 ./configure --prefix=$prefix \
